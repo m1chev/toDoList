@@ -1,3 +1,4 @@
+//this is from my feature branch
 const todoForm = document.getElementById('todo-form');
 const todoInput = document.getElementById('todo-input');
 const todoList = document.getElementById('todo-list');
@@ -15,6 +16,7 @@ todoForm.addEventListener('submit', function (event) {
 
 	todoInput.value = '';
 });
+//this is something additional
 
 function addTask(task) {
 	const listItem = document.createElement('li');
